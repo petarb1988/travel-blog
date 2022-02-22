@@ -1,0 +1,11 @@
+runtime: nodejs14
+
+env_variables:
+  SECRET: process.env.SECRET
+  DB_USERNAME: process.env.DB_USERNAME
+  DB_PASSWORD: process.env.DB_PASSWORD
+  DB_NAME_SESSIONS: process.env.DB_NAME_SESSIONS
+  DB_NAME_MAIN: process.env.DB_NAME_MAIN
+
+beta_settings:
+  cloud_sql_instances: process.env.INSTANCE_NAME
